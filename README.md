@@ -4,7 +4,7 @@ An interactive Streamlit app that allows users to explore **Indian crop producti
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 This system combines official Indian agricultural datasets with AI (Google Gemini) to provide:
 
@@ -22,7 +22,7 @@ The system supports multiple input types, including text queries like:
 
 ---
 
-## 📦 Features
+##  Features
 
 - **AI-powered query understanding:** Uses Google Gemini to parse natural language queries.
 - **Dynamic data fetching:** Pulls data from `data.gov.in` API and falls back to public CSV via CKAN if API fails.
@@ -33,7 +33,7 @@ The system supports multiple input types, including text queries like:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend & Interaction:** [Streamlit](https://streamlit.io/)
 - **Data Visualization:** [Plotly](https://plotly.com/python/)
@@ -42,8 +42,21 @@ The system supports multiple input types, including text queries like:
 - **Python Libraries:** `pandas`, `requests`, `io`, `time`, `plotly`, `json`
 
 ---
+## Usage
 
-## 📄 Data Sources
+- Type a query in natural language in the input box, e.g., "Compare wheat production between Punjab and Haryana in 2018"
+- Click Send to fetch insights.
+- Visualizations will appear automatically based on query type.
+- Metrics summary and raw data are available in expandable panels.
+
+##  Data Sources
 
 - District-wise Crop Production Statistics, Ministry of Agriculture & Farmers Welfare
 - Public CSV via CKAN
+
+---
+##  Extensibility Ideas
+
+- Add weather data via APIs like OpenWeatherMap to correlate production with climate.
+- Include soil or fertilizer datasets for more granular insights.
+- Support multi-year trend predictions using AI or ML models.
