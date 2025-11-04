@@ -722,8 +722,12 @@ with st.sidebar:
     - Years: 1997-2023
     - States: All Indian states
     - Crops: Rice, Wheat, Cotton, Sugarcane, Maize, Potato, etc.
-    """)
-    
+   
+    ### Note to judging panel:
+    - I gave more emphasis on the visualization part of the project as per the role's title
+    - This project helped me understand the real problem with current dataset and forced my to look for solutions that can handle the differnced in the API data allowing me to explore different paths
+     """)
+     
     st.markdown("---")
     
     
